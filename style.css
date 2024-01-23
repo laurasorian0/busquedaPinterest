@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(218, 218, 218);
+}
+:root{
+  --rtc-color-1: black;
+  --rtc-color-2: rgb(187, 213, 255);
+  --rtc-color-3: rgb(54, 82, 81);
+  --rtc-color-4: white;
+  --rtc-color-5: rgb(226, 239, 255);
+  --rtc-border-radius: 8px;
+
+  --rtc-bColor: var(var(--rtc-color-4))
+  --rtc-borderColor: var(var(--rtc-color-3))
+  --rtc-text: var(var(--rtc-color-1))
+
+  --rtc-margin-xs: 5px;
+  --rtc-margin-s: 10px;
+  --rtc-margin-m: 20px;
+  --rtc-margin-l: 30px;
+  --rtc-margin-xl: 40px;
+  --rtc-margin-xxl: 50px;
+
+  --rtc-padding-xs: 5px;
+  --rtc-padding-s: 10px;
+  --rtc-padding-m: 20px;
+  --rtc-padding-l: 30px;
+  --rtc-padding-xl: 40px;
+  --rtc-padding-xxl: 50px;
+
+  --rtc-gap-xs: 5px;
+  --rtc-gap-s: 10px;
+  --rtc-gap-m: 20px;
+  --rtc-gap-l: 30px;
+  --rtc-gap-xl: 40px;
+  --rtc-gap-xxl: 50px;
+}
+

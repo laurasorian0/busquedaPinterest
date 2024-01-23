@@ -1,0 +1,42 @@
+.contenedorIMG {
+  column-count: 4;
+  column-gap: 10px;
+  margin-top: 55px;
+  margin: 70px;
+}
+
+.imgGenerada {
+  break-inside: avoid;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.imgGenerada img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la propiedad object-fit según tus necesidades */
+  display: block;
+  border-radius: 8px;
+}
+
+
+@media (max-width: 880px) {
+  .contenedorIMG {
+    column-count: 3;
+    column-gap: 10px;
+    margin: 30px;
+    margin-top: 60px;
+  }
+  
+}
+
+
+@media (max-width: 650px) {
+  .contenedorIMG {
+    column-count: 2;
+    column-gap: 10px;
+    margin: 30px;
+    margin-top: 60px;
+  }
+  
+}
