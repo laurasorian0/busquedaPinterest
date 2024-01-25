@@ -18,6 +18,11 @@
   display: block;
   border-radius: 8px;
 }
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 @media (max-width: 880px) {
