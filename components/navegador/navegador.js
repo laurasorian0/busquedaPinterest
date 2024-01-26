@@ -23,6 +23,7 @@ export const createNav = () => {
   crearBoton("Crear", divElementosNav);
 
 
+
   const input = document.createElement("input");
   input.type = "text";
   input.className = "input"; // Input
