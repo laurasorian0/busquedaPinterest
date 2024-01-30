@@ -4,8 +4,8 @@ import "./navegador.css"
 
 export const createNav = () => {
   const listaNav = ["Inicio", "Hoy", "Crear"];
-  const listaIconos = ["./public/3602145.png", "./public/b1290c469fcbbd75a564012feffd4ce7.png", "./public/17772.png"];
-  const logoPinterest = "./public/580b57fcd9996e24bc43c52e.png";
+  const listaIconos = ["/3602145.png", "/b1290c469fcbbd75a564012feffd4ce7.png", "/17772.png"];
+  const logoPinterest = "/580b57fcd9996e24bc43c52e.png";
 
   const app = document.querySelector("#app");
 
